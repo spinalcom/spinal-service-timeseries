@@ -12,6 +12,7 @@
   },
   "keywords": [],
   "author": "",
+  "types": "./dist/index.d.ts",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/spinalcom/spinal-service-timeseries/issues"
