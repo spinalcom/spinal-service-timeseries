@@ -10,6 +10,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 const spinal_env_viewer_graph_service_1 = require("spinal-env-viewer-graph-service");
 const spinal_model_timeseries_1 = require("spinal-model-timeseries");
+exports.SpinalTimeSeries = spinal_model_timeseries_1.SpinalTimeSeries;
 class SpinalServiceTimeseries {
     constructor() {
         this.timeSeriesDictionnary = new Map();

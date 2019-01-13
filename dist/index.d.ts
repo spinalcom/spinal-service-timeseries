@@ -50,4 +50,4 @@ declare class SpinalServiceTimeseries {
     getFromIntervalTimeGen(timeseries: SpinalTimeSeries, start?: string | number | Date, end?: string | number | Date): Promise<AsyncIterableIterator<SpinalDateValue>>;
 }
 export default SpinalServiceTimeseries;
-export { SpinalServiceTimeseries };
+export { SpinalServiceTimeseries, SpinalTimeSeries, SpinalDateValue, };

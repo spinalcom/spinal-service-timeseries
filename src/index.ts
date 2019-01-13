@@ -136,4 +136,8 @@ class SpinalServiceTimeseries{
 
 }
 export default SpinalServiceTimeseries;
-export { SpinalServiceTimeseries };
+export {
+  SpinalServiceTimeseries,
+  SpinalTimeSeries,
+  SpinalDateValue,
+ };
